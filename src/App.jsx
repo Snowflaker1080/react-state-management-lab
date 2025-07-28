@@ -110,9 +110,9 @@ function App() {
    return (
     <div className="App">
       <h1>Zombie Apocalypse Team Builder</h1>
-      <h2>🪙 Money: ${money}</h2>
+      <h2>Money: ${money}</h2>
 
-      <h3>🧟 Available Zombie Fighters</h3>
+      <h3>Available Zombie Fighters</h3>
       <ul className="fighters-list">
         {zombieFighters.map(fighter => (
           <li key={fighter.id} className="fighter-card">
