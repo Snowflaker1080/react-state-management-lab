@@ -11,7 +11,7 @@ function App() {
       price: 12,
       strength: 6,
       agility: 4,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/0c2d6b.png',
+      img: 'https://cdn.pixabay.com/photo/2020/03/22/04/10/female-4955798_640.png',
     },
     {
       id: 2,
@@ -19,7 +19,7 @@ function App() {
       price: 10,
       strength: 5,
       agility: 5,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/033a16.png',
+      img: 'https://cdn.pixabay.com/photo/2024/05/12/20/50/ai-generated-8757666_640.jpg',
     },
     {
       id: 3,
@@ -35,7 +35,7 @@ function App() {
       price: 14,
       strength: 7,
       agility: 6,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/3c1e70.png',
+      img: 'https://cdn.pixabay.com/photo/2024/06/02/18/43/lone-8804891_640.jpg',
     },
     {
       id: 5,
@@ -43,7 +43,7 @@ function App() {
       price: 20,
       strength: 6,
       agility: 8,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/4b2900.png',
+      img: 'https://cdn.pixabay.com/photo/2024/08/03/13/16/ai-generated-8942087_640.jpg',
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ function App() {
       price: 15,
       strength: 5,
       agility: 7,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/5a1e02.png',
+      img: 'https://cdn.pixabay.com/photo/2024/08/03/13/02/ai-generated-8942065_640.jpg',
     },
     {
       id: 7,
@@ -67,7 +67,7 @@ function App() {
       price: 11,
       strength: 8,
       agility: 3,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/67060c.png',
+      img: 'https://cdn.pixabay.com/photo/2024/05/16/18/13/ai-generated-8766731_640.jpg',
     },
     {
       id: 9,
@@ -75,7 +75,7 @@ function App() {
       price: 17,
       strength: 5,
       agility: 9,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/ac3220.png',
+      img: 'https://cdn.pixabay.com/photo/2024/07/14/16/51/ai-generated-8894880_640.jpg',
     },
     {
       id: 10,
@@ -83,7 +83,7 @@ function App() {
       price: 22,
       strength: 7,
       agility: 6,
-      img: 'https://pages.git.generalassemb.ly/modular-curriculum-all-courses/react-state-management-lab/assets/e41f26.png',
+      img: 'https://cdn.pixabay.com/photo/2024/06/02/18/07/lone-8804794_640.jpg',
     },
   ]);
 
@@ -133,7 +133,7 @@ function App() {
         <ul className="team-list">
           {team.map(fighter => (
             <li key={fighter.id} className="fighter-card">
-              <img src={fighter.img} alt={fighter.name} width="100" />
+              <img src={fighter.img} alt={fighter.name} />
               <h4>{fighter.name}</h4>
               <p>Price: ${fighter.price}</p>
               <p>Strength: {fighter.strength}</p>
